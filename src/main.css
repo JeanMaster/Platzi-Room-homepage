@@ -121,9 +121,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: -5.2rem;
+    margin-top: -5.4rem;
     
 }
+.left:active, .right:active {
+    background-color: var(--DarkGray);
+    
+}
+
 
 .mobile-nav {
     background-color: black;

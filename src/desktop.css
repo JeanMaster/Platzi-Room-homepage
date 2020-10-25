@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.hero {
+    width: 60%;
+    height: 60vh;
+}
+
+.description-card {
+    width: 31%;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.hero-img-container {
+    width: 32%;
+  
+}
+
+.mobile-nav{
+    width: 10.5rem;
+}
+
+.mobile-nav-container {
+    margin-top: -5.05rem;
+    left: 10.5rem;
+    position: relative;
+}
+
+.burgerButton {
+    display: none;
+    
+}
+
+.hero-menu-logo {
+    text-align: left;
+    margin-left: 10rem;
+    
+}
+
+
+.hero-nav-menu {
+    display: flex;
+    background: transparent;
+  
+}
+.hero-nav-menu ul li a{
+    color: white ;
+}
