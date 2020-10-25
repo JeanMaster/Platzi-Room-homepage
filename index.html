@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" media="screen and (min-width: 1024px") href="./src/desktop.css">
+  <link rel="stylesheet" href="./src/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- displays site properly based on user's device -->
+
+  <title>Room homepage</title>
+</head>
+
+<body>
+  <main class="main">
+    <header class="hero">
+    <nav class="hero-nav-menu" id="top-menu">
+      <picture>
+        <img  class="burgerButton" src="./images/icon-close.svg" alt="X button to close">
+      </picture>        
+      <ul>
+        <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-menu-logo">
+        <img  class="burgerButton" src="./images/icon-hamburger.svg" alt="Menu de navegacion">
+        <h1>room</h1>
+      </div>
+      <picture  class="hero-img">
+        <source media="(min-width:650px)" srcset="./images/desktop-image-hero-1.jpg">
+        <img  id="heroimg" src="./images/mobile-image-hero-1.jpg" class="hero-img" alt="Imagen de inmobiliario">
+      </picture>
+      <div class="mobile-nav-container">
+        <div class="mobile-nav">
+          <div class="left" id="left">
+            <img src="./images/icon-angle-left.svg" alt="">
+          </div>
+          <div class="right" id="right">
+            <img src="./images/icon-angle-right.svg" alt="">
+          </div>
+        </div>
+      </div> 
+    </header>
+
+    <section class="description-card">
+      <h1 class="description-tittle"> Discover Innovative ways to decorate </h1>
+      <p>
+      We provide unmatched quality, comfort, and style for property owners across the
+      country. Our experts combine form and function in bringing your vision to
+      life. Create a room in your own style with our collection and make your
+      property a reflection of you and what you love. 
+      </p>
+      <h3 class="shop-now">SHOP NOW  <img src="./images/icon-arrow.svg" alt=""> </h3>
+    </section>
+        <picture class="hero-img-container">
+          <img src="./images/image-about-dark.jpg" alt="Imagen de inmobiliario oscuro">
+        </picture>
+    <section class="description-card">
+      <h1 class="description-subtittle"> About our furniture</h1>
+      <p>
+      We provide unmatched quality, comfort, and style for property owners across the
+      country. Our experts combine form and function in bringing your vision to
+      life. Create a room in your own style with our collection and make your
+      property a reflection of you and what you love. 
+      </p>
+    
+    </section>
+    <picture class="hero-img-container">
+      <img src="./images/image-about-light.jpg" alt="Imagen de inmobiliario oscuro">
+    </picture>
+</main>
+<script src="./src/index.js"></script>
+</body>
+
+</html>
