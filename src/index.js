@@ -18,20 +18,13 @@ var i = 0; //reminder location for hero img
 left.addEventListener("click", changeheroLeft);
 right.addEventListener("click", changeheroRigth);
 // for burgerbutton validation
-function validation(event) {
-  if (event.matches){
-    burgerButton[0].addEventListener("click", hideShow);
-    burgerButton[1].addEventListener("click", hideShow);
-  }
-    else
-    {
-      burgerButton[0].removeEventListener("click", hideShow);
-      burgerButton[1].removeEventListener("click", hideShow);
-    }
-    console.log(event.matches)
-  }
+
+burgerButton[0].addEventListener("click", hideShow);
+burgerButton[1].addEventListener("click", hideShow);
+
+
+ 
   //top menu active when match.media
-  validation(mobile);
 function hideShow() {
   if (menu.classList.contains("is-active")) {
       menu.classList.remove("is-active");
